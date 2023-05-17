@@ -16,6 +16,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     var state: String
     var description: String
     var isFavorite: Bool
+    var isFeatured: Bool
     
     var category: Category
     enum Category: String, CaseIterable, Codable {
@@ -28,6 +29,10 @@ struct Landmark: Hashable, Codable, Identifiable {
     private var imageName: String
     var image: Image {
         Image(imageName)
+    }
+    
+    var featureImage: Image? {
+        isFeatured ? Image(imageName + "_feature") : nil
     }
 
     private var coordinates: Coordinates
