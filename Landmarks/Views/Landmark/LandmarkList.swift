@@ -36,7 +36,7 @@ struct LandmarkList: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(filteredLandmarks) {landmark in
+                ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
                         LandmarkDetail(landmark: landmark)
                     } label: {
