@@ -29,6 +29,9 @@
 		C3E533EF2A28E282004AE434 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533EE2A28E282004AE434 /* FavoritesView.swift */; };
 		C3E533F12A28E293004AE434 /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533F02A28E293004AE434 /* FunFactsView.swift */; };
 		C3E533F52A28E378004AE434 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533F42A28E378004AE434 /* Info.swift */; };
+		C3E533F82A28E964004AE434 /* MyStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533F72A28E964004AE434 /* MyStory.swift */; };
+		C3E533FA2A28E9FB004AE434 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533F92A28E9FB004AE434 /* Story.swift */; };
+		C3E533FE2A28EB85004AE434 /* StoryPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533FD2A28EB85004AE434 /* StoryPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,9 @@
 		C3E533EE2A28E282004AE434 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		C3E533F02A28E293004AE434 /* FunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
 		C3E533F42A28E378004AE434 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		C3E533F72A28E964004AE434 /* MyStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStory.swift; sourceTree = "<group>"; };
+		C3E533F92A28E9FB004AE434 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		C3E533FD2A28EB85004AE434 /* StoryPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,13 +141,9 @@
 		C3E533E72A28E1B2004AE434 /* Aboutme */ = {
 			isa = PBXGroup;
 			children = (
+				C3E533F62A28E956004AE434 /* Other */,
 				C3E533F32A28E365004AE434 /* ViewModels */,
 				C3E533F22A28E35B004AE434 /* Views */,
-				C3E533E82A28E1EB004AE434 /* AboutMeMain.swift */,
-				C3E533EA2A28E25F004AE434 /* HomeView.swift */,
-				C3E533EC2A28E275004AE434 /* StoryView.swift */,
-				C3E533EE2A28E282004AE434 /* FavoritesView.swift */,
-				C3E533F02A28E293004AE434 /* FunFactsView.swift */,
 			);
 			path = Aboutme;
 			sourceTree = "<group>";
@@ -149,6 +151,12 @@
 		C3E533F22A28E35B004AE434 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C3E533E82A28E1EB004AE434 /* AboutMeMain.swift */,
+				C3E533EA2A28E25F004AE434 /* HomeView.swift */,
+				C3E533EC2A28E275004AE434 /* StoryView.swift */,
+				C3E533EE2A28E282004AE434 /* FavoritesView.swift */,
+				C3E533F02A28E293004AE434 /* FunFactsView.swift */,
+				C3E533FD2A28EB85004AE434 /* StoryPageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,8 +165,17 @@
 			isa = PBXGroup;
 			children = (
 				C3E533F42A28E378004AE434 /* Info.swift */,
+				C3E533F92A28E9FB004AE434 /* Story.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C3E533F62A28E956004AE434 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C3E533F72A28E964004AE434 /* MyStory.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +259,8 @@
 				C3E533E22A28B2F3004AE434 /* DefaulSpacing.swift in Sources */,
 				C3E533EF2A28E282004AE434 /* FavoritesView.swift in Sources */,
 				C38016152A1CC2CE00CAA04B /* ContentView.swift in Sources */,
+				C3E533F82A28E964004AE434 /* MyStory.swift in Sources */,
+				C3E533FE2A28EB85004AE434 /* StoryPageView.swift in Sources */,
 				C3E533DE2A28ABFA004AE434 /* EventTile.swift in Sources */,
 				C3E533E92A28E1EB004AE434 /* AboutMeMain.swift in Sources */,
 				C3E533F52A28E378004AE434 /* Info.swift in Sources */,
@@ -251,6 +270,7 @@
 				C3E533EB2A28E25F004AE434 /* HomeView.swift in Sources */,
 				C3E533D62A28A92F004AE434 /* IfElseTrain.swift in Sources */,
 				C3E533D22A288350004AE434 /* KeywordBubble.swift in Sources */,
+				C3E533FA2A28E9FB004AE434 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
