@@ -14,6 +14,7 @@
 		C3E533CE2A2739E5004AE434 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533CD2A2739E5004AE434 /* SettingsView.swift */; };
 		C3E533D02A287FF3004AE434 /* KeywordBubbleDefaultPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533CF2A287FF2004AE434 /* KeywordBubbleDefaultPadding.swift */; };
 		C3E533D22A288350004AE434 /* KeywordBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533D12A28834F004AE434 /* KeywordBubble.swift */; };
+		C3E533D42A2886CB004AE434 /* CaptionedPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533D32A2886CB004AE434 /* CaptionedPhoto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C3E533CD2A2739E5004AE434 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C3E533CF2A287FF2004AE434 /* KeywordBubbleDefaultPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordBubbleDefaultPadding.swift; sourceTree = "<group>"; };
 		C3E533D12A28834F004AE434 /* KeywordBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordBubble.swift; sourceTree = "<group>"; };
+		C3E533D32A2886CB004AE434 /* CaptionedPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionedPhoto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				C3E533CF2A287FF2004AE434 /* KeywordBubbleDefaultPadding.swift */,
 				C38016162A1CC2CF00CAA04B /* Assets.xcassets */,
 				C38016182A1CC2CF00CAA04B /* Preview Content */,
+				C3E533D32A2886CB004AE434 /* CaptionedPhoto.swift */,
 			);
 			path = LearningSwiftUI;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E533D42A2886CB004AE434 /* CaptionedPhoto.swift in Sources */,
 				C3E533CE2A2739E5004AE434 /* SettingsView.swift in Sources */,
 				C38016152A1CC2CE00CAA04B /* ContentView.swift in Sources */,
 				C38016132A1CC2CE00CAA04B /* LearningSwiftUIApp.swift in Sources */,
