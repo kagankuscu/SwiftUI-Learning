@@ -19,6 +19,10 @@
 		C3E533D82A28A9FB004AE434 /* OpacityTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533D72A28A9FB004AE434 /* OpacityTrain.swift */; };
 		C3E533DC2A28ABB8004AE434 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533DB2A28ABB8004AE434 /* Event.swift */; };
 		C3E533DE2A28ABFA004AE434 /* EventTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533DD2A28ABFA004AE434 /* EventTile.swift */; };
+		C3E533E02A28B134004AE434 /* TrainCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533DF2A28B134004AE434 /* TrainCar.swift */; };
+		C3E533E22A28B2F3004AE434 /* DefaulSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533E12A28B2F3004AE434 /* DefaulSpacing.swift */; };
+		C3E533E42A28B316004AE434 /* SpecificSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533E32A28B316004AE434 /* SpecificSpacing.swift */; };
+		C3E533E62A28B3BC004AE434 /* ScaledSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E533E52A28B3BC004AE434 /* ScaledSpacing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,10 @@
 		C3E533D72A28A9FB004AE434 /* OpacityTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityTrain.swift; sourceTree = "<group>"; };
 		C3E533DB2A28ABB8004AE434 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		C3E533DD2A28ABFA004AE434 /* EventTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTile.swift; sourceTree = "<group>"; };
+		C3E533DF2A28B134004AE434 /* TrainCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCar.swift; sourceTree = "<group>"; };
+		C3E533E12A28B2F3004AE434 /* DefaulSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaulSpacing.swift; sourceTree = "<group>"; };
+		C3E533E32A28B316004AE434 /* SpecificSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificSpacing.swift; sourceTree = "<group>"; };
+		C3E533E52A28B3BC004AE434 /* ScaledSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledSpacing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,10 @@
 				C3E533D52A28A92F004AE434 /* IfElseTrain.swift */,
 				C3E533D72A28A9FB004AE434 /* OpacityTrain.swift */,
 				C3E533DD2A28ABFA004AE434 /* EventTile.swift */,
+				C3E533DF2A28B134004AE434 /* TrainCar.swift */,
+				C3E533E12A28B2F3004AE434 /* DefaulSpacing.swift */,
+				C3E533E32A28B316004AE434 /* SpecificSpacing.swift */,
+				C3E533E52A28B3BC004AE434 /* ScaledSpacing.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,8 +190,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3E533D42A2886CB004AE434 /* CaptionedPhoto.swift in Sources */,
+				C3E533E62A28B3BC004AE434 /* ScaledSpacing.swift in Sources */,
+				C3E533E02A28B134004AE434 /* TrainCar.swift in Sources */,
 				C3E533DC2A28ABB8004AE434 /* Event.swift in Sources */,
+				C3E533E42A28B316004AE434 /* SpecificSpacing.swift in Sources */,
 				C3E533CE2A2739E5004AE434 /* SettingsView.swift in Sources */,
+				C3E533E22A28B2F3004AE434 /* DefaulSpacing.swift in Sources */,
 				C38016152A1CC2CE00CAA04B /* ContentView.swift in Sources */,
 				C3E533DE2A28ABFA004AE434 /* EventTile.swift in Sources */,
 				C38016132A1CC2CE00CAA04B /* LearningSwiftUIApp.swift in Sources */,
